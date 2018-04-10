@@ -1,3 +1,5 @@
+#' @export
+#'
 
 install.yyplot<-function(){
 

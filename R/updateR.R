@@ -1,3 +1,5 @@
+#' @export
+#'
 
 updateR<-function(){
 # Cite: https://www.r-statistics.com/2013/03/updating-r-from-r-on-windows-using-the-installr-package/
