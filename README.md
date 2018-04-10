@@ -18,13 +18,13 @@
 # Examples
 	
 
-    install.basicANCOVA()
-	install.data.analysis()
-	install.gg.series()
-	install.graphic()
-	install.isotope()
-	install.writedown()
-	updateR()
+    basicPackages::install.basicANCOVA()
+	basicPackages::install.data.analysis()
+	basicPackages::install.gg.series()
+	basicPackages::install.graphic()
+	basicPackages::install.isotope()
+	basicPackages::install.writedown()
+	basicPackages::updateR()
 	
 
 ## Contributors
