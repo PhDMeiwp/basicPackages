@@ -29,7 +29,7 @@
 	basicPackages::install.all()
 	basicPackages::updateR()
 	
-# Those pacakges installed by our functions are as following:
+# Those pacakges installed are as following:
 
 	
 	install.basicANCOVA() <- c("devtools", "basicANCOVA")
