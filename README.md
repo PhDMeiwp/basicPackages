@@ -23,22 +23,16 @@
 	basicPackages::install.gg.series()
 	basicPackages::install.graphic()
 	basicPackages::install.isotope()
+	basicPackages::install.Steel.Dwass.test()
 	basicPackages::install.writedown()
+	
+	basicPackages::install.all()
 	basicPackages::updateR()
 	
 # Those pacakges installed by our functions are as following:
 
+	
 	install.basicANCOVA() <- c("devtools", "basicANCOVA")
-
-	install.gg.series() <- c("ggforce","ggimage","ggplot2","ggpubr","ggrepel","ggsci","ggsignif","git2r","ggtree", "gridExtra","gridGraphics", "growthcurver")
-
-	install.graphic() <- c("qrcode","tidyr","tweenr","wordcloud","htmlTable","htmltools","htmlwidgets","httpcode")
-
-	install.isotope() <- c("IsotopeR", "IsoriX", "MixSIAR", "siar", "SIBER", "simmr", "tRophicPosition")
-
-	install.writedown() <- c("knitr","blogdown","bookdown","markdown","rmarkdown")
-
-	install.yyplot() <- c("devtools","digest", "crul", "xml2", "stringi", "yyplot")
 
 	install.data.analysis() <- c("base2grob","basicTrendline","bayesm",
 						"car","caret","colorspace",
@@ -55,6 +49,24 @@
 						"waveslim","whisker","wordcloud",
 						"xml2","xtable")
 						
+	install.gg.series() <- c("ggforce","ggimage","ggplot2","ggpubr","ggrepel","ggsci","ggsignif","git2r","ggtree", "gridExtra","gridGraphics", "growthcurver")
+
+	install.graphic() <- c("qrcode","tidyr","tweenr","wordcloud","htmlTable","htmltools","htmlwidgets","httpcode")
+
+	install.isotope() <- c("IsotopeR", "IsoriX", "MixSIAR", "siar", "SIBER", "simmr", "tRophicPosition")
+
+	install.Steel.Dwass.test() <- c("devtools", "Steel.Dwass.test")
+	
+	install.writedown() <- c("knitr","blogdown","bookdown","markdown","rmarkdown")
+
+	install.yyplot() <- c("devtools","digest", "crul", "xml2", "stringi", "yyplot")
+
+	##
+	install.all() <- c("install.basicANCOVA()", "install.data.analysis()", 
+						"install.gg.series()", "install.graphic()", 
+						"install.isotope()", "install.Steel.Dwass.test()", 
+						"install.writedown()", "install.yyplot()")
+	
 	updateR() <- c("installr")
 
 	
