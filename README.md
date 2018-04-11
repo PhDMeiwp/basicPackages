@@ -19,6 +19,7 @@
 	
 
     basicPackages::install.basicANCOVA()
+	basicPackages::install.Bioconductor()
 	basicPackages::install.data.analysis()
 	basicPackages::install.gg.series()
 	basicPackages::install.graphic()
@@ -33,6 +34,8 @@
 
 	
 	install.basicANCOVA() <- c("devtools", "basicANCOVA")
+	
+	install.Bioconductor() <- c("ggtree")
 
 	install.data.analysis() <- c("base2grob","basicTrendline","bayesm",
 						"car","caret","colorspace",

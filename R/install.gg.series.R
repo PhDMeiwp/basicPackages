@@ -14,7 +14,7 @@
 install.gg.series<-function(){
 list.of.packages <- c("ggforce","ggimage","ggplot2","ggpubr","ggrepel",
 						"ggsci","ggsignif","git2r",
-						"ggtree", "gridExtra","gridGraphics",
+						 "gridExtra","gridGraphics",
 						"growthcurver")
 new.packages <- list.of.packages[!(list.of.packages
                                    %in% installed.packages()[,"Package"])]
