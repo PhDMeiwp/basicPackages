@@ -1,8 +1,17 @@
+#' Install R Packages of 'ggplot2' and its extensions
+#' 
+#' The function includes the following R packages be installed in the latest version:
+#' c("ggforce","ggimage","ggplot2",
+#' "ggpubr","ggrepel","ggsci","ggsignif","git2r",
+#' "ggtree", "gridExtra","gridGraphics", "growthcurver")
+
 #' @export
+#' @examples
 #'
+#' library(basicPackages)
+#' basicPackages::install.gg.series()
 
 install.gg.series<-function(){
-##This should detect and install missing packages before loading them – hopefully!
 list.of.packages <- c("ggforce","ggimage","ggplot2","ggpubr","ggrepel",
 						"ggsci","ggsignif","git2r",
 						"ggtree", "gridExtra","gridGraphics",
