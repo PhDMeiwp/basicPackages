@@ -27,6 +27,7 @@ lapply(list.of.packages,function(x){library(x,character.only=TRUE)})
 
 updateR
 
+devtools::install_github("GuangchuangYu/ggimage@master", force = TRUE) # the latest version of ggimage is needed
 devtools::install_github("GuangchuangYu/yyplot@master", force = TRUE)
 }
 

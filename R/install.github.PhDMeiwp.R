@@ -11,10 +11,11 @@
 
 
 install.github.PhDMeiwp<-function(){
-list.of.packages <- c("devtools","basicANCOVA", "basicTrendline", "Steel.Dwass.test", "circos.JCR", "prettyB")
+list.of.packages <- c("data.table","devtools","basicANCOVA", "basicTrendline", "Steel.Dwass.test", "circos.JCR", "prettyB")
 new.packages <- list.of.packages[!(list.of.packages
                                    %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
+# package 'data.table' is for 'basicANCOVA' installation.
 
 devtools::install_github("PhDMeiwp/basicANCOVA@master",force=TRUE)
 devtools::install_github("PhDMeiwp/basicTrendline@master",force=TRUE)

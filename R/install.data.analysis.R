@@ -24,7 +24,8 @@
 #' basicPackages::install.data.analysis()
 
 install.data.analysis<-function(){
-list.of.packages <- c("base2grob","basicTrendline","bayesm",
+list.of.packages <- c("asbio",
+						"base2grob","basicTrendline","bayesm",
 						"car","caret","colorspace",
 						"devtools","dplyr","dunn.test",
 						"fANCOVA","forcats",
