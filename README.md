@@ -3,10 +3,7 @@
  [![HitCount](http://hits.dwyl.io/PhDMeiwp/basicPackages.svg)](http://hits.dwyl.io/PhDMeiwp/basicPackages)
 
 
-## Installation (1.0.1)
-
-**version 1.0.1** from Github
-
+## Installation (1.2.0)
 	
 	install.packages("devtools")
 	library(devtools) 
@@ -18,13 +15,16 @@
 # Examples
 	
 
-    basicPackages::install.basicANCOVA()
 	basicPackages::install.Bioconductor()
 	basicPackages::install.data.analysis()
+	
 	basicPackages::install.gg.series()
 	basicPackages::install.graphic()
+	
 	basicPackages::install.isotope()
-	basicPackages::install.Steel.Dwass.test()
+	basicPackages::install.others()
+	
+	basicPackages::install.PhDMeiwp()
 	basicPackages::install.writedown()
 	
 	basicPackages::install.all()
@@ -33,11 +33,11 @@
 # Those pacakges installed are as following:
 
 	
-	install.basicANCOVA() <- c("devtools", "basicANCOVA")
-	
+
 	install.Bioconductor() <- c("ggtree")
 
-	install.data.analysis() <- c("base2grob","basicTrendline","bayesm",
+	install.data.analysis() <- c("asbio",
+						"base2grob","basicTrendline","bayesm",
 						"car","caret","colorspace",
 						"devtools","dplyr","dunn.test",
 						"fANCOVA","forcats",
@@ -52,22 +52,25 @@
 						"waveslim","whisker","wordcloud",
 						"xml2","xtable")
 						
-	install.gg.series() <- c("ggforce","ggimage","ggplot2","ggpubr","ggrepel","ggsci","ggsignif","git2r","ggtree", "gridExtra","gridGraphics", "growthcurver")
+	install.gg.series() <- c("ggforce","ggimage","ggplot2", "ggplotify", "ggpubr","ggrepel","ggsci","ggsignif","git2r","ggtree", "gridExtra","gridGraphics", "growthcurver")
 
 	install.graphic() <- c("qrcode","tidyr","tweenr","wordcloud","htmlTable","htmltools","htmlwidgets","httpcode")
 
 	install.isotope() <- c("IsotopeR", "IsoriX", "MixSIAR", "siar", "SIBER", "simmr", "tRophicPosition")
 
-	install.Steel.Dwass.test() <- c("devtools", "Steel.Dwass.test")
+	install.others() <- c("rvcheck") 
+	
+	install.PhDMeiwp() <- c("devtools", "basicANCOVA", "basicTrendline","Steel.Dwass.test", "circos.JCR", "prettyB")
 	
 	install.writedown() <- c("knitr","blogdown","bookdown","markdown","rmarkdown")
 
 	install.yyplot() <- c("devtools","digest", "crul", "xml2", "stringi", "yyplot")
 
 	##
-	install.all() <- c("install.basicANCOVA()", "install.data.analysis()", 
+	install.all() <- c("install.Bioconductor()", "install.data.analysis()", 
 						"install.gg.series()", "install.graphic()", 
-						"install.isotope()", "install.Steel.Dwass.test()", 
+						"install.isotope()", "install.others()", 
+						"install.PhDMeiwp()", 
 						"install.writedown()", "install.yyplot()")
 	
 	updateR() <- c("installr")

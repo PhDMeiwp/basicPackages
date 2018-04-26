@@ -8,7 +8,7 @@ install.gg.series()
 }
 \description{
 The function includes the following R packages be installed in the latest version:
-c("ggforce","ggimage","ggplot2",
+c("ggforce","ggimage","ggplot2","ggplotify",
 "ggpubr","ggrepel","ggsci","ggsignif","git2r",
 "ggtree", "gridExtra","gridGraphics", "growthcurver")
 }

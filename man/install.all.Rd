@@ -8,9 +8,9 @@ install.all()
 }
 \description{
 The function includes the following R packages families be installed in the latest version:
-c("install.basicANCOVA()", "install.data.analysis()", 
-"install.gg.series()", "install.graphic()", 
-"install.isotope()", "install.Steel.Dwass.test()", 
+c("install.Bioconductor()", "install.data.analysis()", 
+"install.gg.series()", "install.github.PhDMeiwp()", "install.graphic()", 
+"install.isotope()", "install.others()", 
 "install.writedown()", "install.yyplot()")
 }
 \examples{

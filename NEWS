@@ -1,0 +1,14 @@
+Changes in version 1.2.0 
+----------------------------
+* Date: 2018-04-26
+* update the 'install.all()' function
+* add 'asbio' package to 'install.data.analysis()' function
+* add 'ggplotify' package to 'install.gg.series()' function
+* create 'install.github.PhDMeiwp()' function, which contains 'basicANCOVA', 'basicTrendline', 'Steel.Dwass.test', 'circos.JCR', and 'prettyB' packages
+* create 'install.others()' function, which contains 'rvcheck' package
+* deleted 'install.basicANCOVA()', and 'install.Steel.Dwass.test()' functions
+
+Changes in version 1.1.0 
+----------------------------
+* Date: 2018-04-10
+* create this R package named 'basicPackages'

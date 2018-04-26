@@ -8,7 +8,8 @@ install.data.analysis()
 }
 \description{
 The function includes the following R packages be installed in the latest version:
-c("base2grob","basicTrendline","bayesm",
+c("asbio",
+"base2grob","basicTrendline","bayesm",
 "car","caret","colorspace",
 "devtools","dplyr","dunn.test",
 "fANCOVA","forcats",

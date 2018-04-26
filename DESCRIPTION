@@ -1,7 +1,7 @@
 Package: basicPackages
 Title: Install all Basic R Packages in a simple way
-Date: 2018-04-10
-Version: 1.1.0
+Date: 2018-04-26
+Version: 1.2.0
 Authors@R: person("Weiping", "Mei", email = "meiweipingg@163.com", role = c("aut", "cre"))
 Description: Install lots of R Packages you need easier.
 Depends: R (>= 2.5.1)

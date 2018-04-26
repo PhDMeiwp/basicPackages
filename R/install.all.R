@@ -1,9 +1,9 @@
 #' Install All R Packages within the 'basicPackage'
 #' 
 #' The function includes the following R packages families be installed in the latest version:
-#' c("install.basicANCOVA()", "install.data.analysis()", 
-#' "install.gg.series()", "install.graphic()", 
-#' "install.isotope()", "install.Steel.Dwass.test()", 
+#' c("install.Bioconductor()", "install.data.analysis()", 
+#' "install.gg.series()", "install.github.PhDMeiwp()", "install.graphic()", 
+#' "install.isotope()", "install.others()", 
 #' "install.writedown()", "install.yyplot()")
 
 #' @export
@@ -14,12 +14,13 @@
 
 install.all<-function(){
 
-  basicPackages::install.basicANCOVA()
+  basicPackages::install.Bioconductor()
   basicPackages::install.data.analysis()
   basicPackages::install.gg.series()
+  basicPackages::install.github.PhDMeiwp()
   basicPackages::install.graphic()
   basicPackages::install.isotope()
-  basicPackages::install.Steel.Dwass.test()
+  basicPackages::install.others()
   basicPackages::install.writedown()
   basicPackages::install.yyplot()
 }
