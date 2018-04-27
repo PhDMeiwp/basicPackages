@@ -5,6 +5,8 @@
 
 ## Authors
 
+<img src="https://github.com/PhDMeiwp/PhDMeiwp.github.io/blob/hexo/Common_images/Mei_Logo.JPG" width="90"/>
+
 Weiping MEI https://PhDMeiwp.github.io
 
 Graduate School of Fisheries and Environmental Sciences, Nagasaki University
@@ -17,7 +19,7 @@ Or the development version from github:
 	install.packages("devtools")
 	devtools::install_github("PhDMeiwp/basicPackages@master", force = TRUE)
 
-See [NEWS](https://github.com/PhDMeiwp/basicPackages/blob/master/NEWS)) for the changes in previous versions.
+See [NEWS](https://github.com/PhDMeiwp/basicPackages/blob/master/NEWS) for the changes in previous versions.
 
 # Examples
 	
