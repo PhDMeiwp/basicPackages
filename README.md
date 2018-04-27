@@ -5,7 +5,7 @@
 
 ## Authors
 
-<img src="https://github.com/PhDMeiwp/PhDMeiwp.github.io/blob/hexo/Common_images/Mei_Logo.JPG" width="90"/>
+<img src="https://github.com/PhDMeiwp/PhDMeiwp.github.io/blob/hexo/Common_images/Mei_Logo.JPG" width="70"/>
 
 Weiping MEI https://PhDMeiwp.github.io
 
