@@ -1,16 +1,23 @@
-# basicPackages
+# basicPackages: R Package for Installing those R Packages which I Use or Recommend
 
  [![HitCount](http://hits.dwyl.io/PhDMeiwp/basicPackages.svg)](http://hits.dwyl.io/PhDMeiwp/basicPackages)
 
 
-## Installation (1.2.0)
+## Authors
+
+Weiping MEI https://PhDMeiwp.github.io
+
+Graduate School of Fisheries and Environmental Sciences, Nagasaki University
+
+
+## Installation
+
+Or the development version from github:
 	
 	install.packages("devtools")
-	library(devtools) 
-	
-	install_github("PhDMeiwp/basicPackages@master", force = TRUE)
-	library(basicPackages)
+	devtools::install_github("PhDMeiwp/basicPackages@master", force = TRUE)
 
+See [NEWS](https://github.com/PhDMeiwp/basicPackages/blob/master/NEWS)) for the changes in previous versions.
 
 # Examples
 	
