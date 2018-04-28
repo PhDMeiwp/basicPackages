@@ -15,7 +15,7 @@ Graduate School of Fisheries and Environmental Sciences, Nagasaki University
 
 ## Installation
 
-Or the development version from github:
+Or the development version 1.2.2 from github:
 	
 	install.packages("devtools")
 	devtools::install_github("PhDMeiwp/basicPackages@master", force = TRUE)
@@ -38,6 +38,7 @@ See [NEWS](https://github.com/PhDMeiwp/basicPackages/blob/master/NEWS) for the c
 	basicPackages::install.writedown()
 	
 	basicPackages::install.all()
+	basicPackages::pathR()
 	basicPackages::updateR()
 	
 # Those pacakges installed are as following:
@@ -62,7 +63,8 @@ See [NEWS](https://github.com/PhDMeiwp/basicPackages/blob/master/NEWS) for the c
 						"waveslim","whisker","wordcloud",
 						"xml2","xtable")
 						
-	install.gg.series() <- c("ggforce","ggimage","ggplot2", "ggplotify", "ggpubr","ggrepel","ggsci","ggsignif","git2r","ggtree", "gridExtra","gridGraphics", "growthcurver")
+	install.gg.series() <- c("ggforce","ggimage","ggplot2", "ggplotify", "ggpubr","ggrepel",
+						"ggsci","ggsignif","ggthemes","git2r","ggtree", "gridExtra","gridGraphics", "growthcurver")
 
 	install.graphic() <- c("qrcode","tidyr","tweenr","wordcloud","htmlTable","htmltools","htmlwidgets","httpcode")
 

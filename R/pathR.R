@@ -1,0 +1,6 @@
+#' @export
+#'
+
+pathR<-function(){
+.libPaths()
+}

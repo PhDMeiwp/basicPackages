@@ -12,8 +12,8 @@
 #' basicPackages::install.gg.series()
 
 install.gg.series<-function(){
-list.of.packages <- c("ggforce","ggimage","ggplot2", "ggplotify","ggpubr","ggrepel",
-						"ggsci","ggsignif","git2r",
+list.of.packages <- c("ggforce", "ggimage", "ggplot2", "ggplotify", "ggpubr", "ggrepel",
+						"ggsci", "ggsignif", "ggthemes", "git2r",
 						 "gridExtra","gridGraphics",
 						"growthcurver")
 new.packages <- list.of.packages[!(list.of.packages
