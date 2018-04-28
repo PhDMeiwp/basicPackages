@@ -15,7 +15,7 @@ Graduate School of Fisheries and Environmental Sciences, Nagasaki University
 
 ## Installation
 
-Or the development version 1.2.2 from github:
+Or the development version 1.2.2 from Github:
 	
 	install.packages("devtools")
 	devtools::install_github("PhDMeiwp/basicPackages@master", force = TRUE)
