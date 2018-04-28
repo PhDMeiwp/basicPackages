@@ -1,3 +1,7 @@
+#' .libPaths() function
+#' 
+#' RT.
+
 #' @export
 #'
 

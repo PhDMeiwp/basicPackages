@@ -1,3 +1,7 @@
+#' update R version
+#' 
+#' The 'rvcheck' package is also recommended.
+
 #' @export
 #'
 
