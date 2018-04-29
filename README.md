@@ -15,7 +15,7 @@ Graduate School of Fisheries and Environmental Sciences, Nagasaki University
 
 ## Installation
 
-Or the development version 1.3.0 from Github:
+Or the development version 1.3.1 from Github:
 	
 	install.packages("devtools")
 	devtools::install_github("PhDMeiwp/basicPackages@master", force = TRUE)
@@ -41,6 +41,7 @@ See [NEWS](https://github.com/PhDMeiwp/basicPackages/blob/master/NEWS) for the c
 	basicPackages::pathR()
 	basicPackages::Renviron()
 	basicPackages::Rprofile()
+	basicPackages::updatePackagesALL()
 	basicPackages::updateR()
 	
 # Those pacakges installed are as following:

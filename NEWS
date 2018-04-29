@@ -1,14 +1,15 @@
-Changes in version 1.3.0
+Changes in version 1.3.1
 ----------------------------
 * Date: 2018-04-29
 * add 'Renviron()' function to prevent it from forgetting ^_^
 * add 'Rprofile()' function to prevent it from forgetting ^_^
+* add 'updatePackagesALL()' function copied from 'rvcheck' package
 
 
 Changes in version 1.2.2
 ----------------------------
 * Date: 2018-04-28
-* add 'pathR()' function to prevent it from forgetting ^_^.
+* add 'pathR()' function to prevent it from forgetting ^_^
 * add 'ggthemes' package to 'install.gg.series()' function
 
 
