@@ -15,7 +15,7 @@ install.gg.series<-function(){
 list.of.packages <- c("ggforce", "ggimage", "ggplot2", "ggplotify", "ggpubr", "ggrepel",
 						"ggsci", "ggsignif", "ggthemes", "git2r",
 						 "gridExtra","gridGraphics",
-						"growthcurver")
+						"growthcurver", "scatterpie")
 new.packages <- list.of.packages[!(list.of.packages
                                    %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages)
