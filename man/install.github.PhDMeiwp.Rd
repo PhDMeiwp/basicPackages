@@ -8,7 +8,7 @@ install.github.PhDMeiwp()
 }
 \description{
 The function includes the following R packages be installed in the latest version:
-c("devtools","basicANCOVA", "basicTrendline", "circos.JCR", "Steel.Dwass.test", "prettyB")
+c("devtools","basicANCOVA", "basicTrendline", "circos.JCR", "Steel.Dwass.test", "prettyB", "R11")
 }
 \examples{
 

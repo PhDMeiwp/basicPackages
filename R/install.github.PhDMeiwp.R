@@ -1,7 +1,7 @@
 #' Install R Packages contained in the repositories of Github user 'PhDMeiwp'
-#' 
+#'
 #' The function includes the following R packages be installed in the latest version:
-#' c("devtools","basicANCOVA", "basicTrendline", "circos.JCR", "Steel.Dwass.test", "prettyB")
+#' c("devtools","basicANCOVA", "basicTrendline", "circos.JCR", "Steel.Dwass.test", "prettyB", "R11")
 
 #' @export
 #' @examples
@@ -22,6 +22,7 @@ devtools::install_github("PhDMeiwp/basicTrendline@master",force=TRUE)
 devtools::install_github("PhDMeiwp/Steel.Dwass.test@master",force=TRUE)
 devtools::install_github("PhDMeiwp/circos.JCR@master",force=TRUE)
 devtools::install_github("PhDMeiwp/prettyB@master",force=TRUE)
+devtools::install_github("PhDMeiwp/R11@master",force=TRUE)
 }
 
 
